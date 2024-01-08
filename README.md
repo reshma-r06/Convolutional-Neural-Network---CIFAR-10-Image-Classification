@@ -24,29 +24,38 @@ CNN uses unique feature of images to identify object that is placed on the image
 
 # Keras:
 Keras is a high-level, deep learning API developed by Google for implementing neural networks. It is written in Python and is used to make the implementation of neural networks easy. It also supports multiple backend neural network computation.
-Keras allows you to switch between different back ends. The frameworks supported by Keras are,Tensorflow, Theano, PlaidML, MXNet, CNTK (Microsoft Cognitive Toolkit). It is used commercially by many companies like Netflix, Uber, Square, Yelp, etc which have deployed products in the public domain which are built using Keras. 
+* Keras allows you to switch between different back ends. The frameworks supported by Keras are,Tensorflow, Theano, PlaidML, MXNet, CNTK (Microsoft Cognitive Toolkit). It is used commercially by many companies like Netflix, Uber, Square, Yelp, etc which have deployed products in the public domain which are built using Keras. 
 The research community for Keras is vast and highly developed. The documentation and help available are far more extensive than other deep learning frameworks. 
 
 # Sequential Model - Keras:
 The core idea of Sequential API is simply arranging the Keras layers in a sequential order and so, it is called Sequential API. As its name suggests it is one of the models that is used to investigate varied types of neural networks where the model gets in one input as feedback and expects an output as desired. 
 * The Keras API and library is incorporated with a sequential model to judge the entire simple model not the complex kind of model. It passes on the data and flows in sequential order from top to bottom approach till the data reaches at end of the model.
 
-# Convolutional Layer(operation):
+* Convolutional Layer(operation):
 This process is main process for CNN. In this operation there is a feature detector or filter. This filter detects edges or specific shapes. Filter is placed top left of image and multiplied with value on same indices. After that all results are summed and this result is written to output matrix. Then filter slips to right to do this whole processes again and again. 
-# Padding:
+
+* Padding:
 Convolutional operations when performed, decreases the size of the image and hence we need to apply padding to preserve the input size.
-# Pooling:
+
+* Pooling:
 This layer is used for reducing parameters and computating process. Also by using this layer features invariant to scale or orientation changes are detected and it prevents overfitting. 
-# Flattening:
+
+* Flattening:
 Flattening is taking matrix came from convolutional and pooling processes and turn it into one dimensional array. 
-# Dropout:
+
+* Dropout:
 Dropout is a regularization technique for reducing overfitting. It is called “dropout” because it drops out visible or hidden units in neural network.
-# Adam Optimizer:
+
+* Adam Optimizer:
 The Adam optimizer is a popular optimization algorithm used in machine learning for stochastic gradient descent (SGD)-based optimization. It stands for Adaptive Moment Estimation and combines the best parts of two other optimization algorithms, AdaGrad and RMSProp.
 The key idea behind Adam is to use a combination of momentum and adaptive learning rates to converge to the minimum of the cost function more efficiently. During training, it uses the first and second moments of the gradients to change the learning rate on the fly.
-# Tensorboard:
+
+* Tensorboard:
 TensorBoard is a visualization tool provided with TensorFlow. This callback logs events for TensorBoard, including: Metrics summary plots, Training graph visualization, Weight histograms and Sampled profiling.
 
 
 # Sources:
-Machine Learning Practical workouts Course - Dr Ryan Ahmed, https://medium.com/@cdabakoglu/what-is-convolutional-neural-network-cnn-with-keras-cab447ad204c (Easy to understand and best for beginner to get a good grasp), https://www.educba.com/keras-sequential/, Geeksforgeeks, https://keras.io/api/callbacks/tensorboard/ etc.
+* Machine Learning Practical workouts Course - Dr Ryan Ahmed, 
+* https://medium.com/@cdabakoglu/what-is-convolutional-neural-network-cnn-with-keras-cab447ad204c
+* https://www.educba.com/keras-sequential/, Geeksforgeeks, https://keras.io/api/callbacks/tensorboard/ etc.
+* https://www.geeksforgeeks.org/introduction-convolution-neural-network/
