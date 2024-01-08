@@ -19,7 +19,8 @@ Data Source: https://www.cs.toronto.edu/~kriz/cifar.html
 
 There are many new concepts I have learned during this project and it was fun learning neural networks and different python libraries. I will note down the important points of the concepts used in this project.
 # Convolutional Neural Network:
-Convolutional Neural Network is a deep learning algorithm which is used for recognizing images. This algorithm clusters images by similarity and perform object recognition within scenes. CNN uses unique feature of images to identify object that is placed on the image. 
+Convolutional Neural Network is a deep learning algorithm which is used for recognizing images. This algorithm clusters images by similarity and perform object recognition within scenes. 
+CNN uses unique feature of images to identify object that is placed on the image. 
 
 # Keras:
 Keras is a high-level, deep learning API developed by Google for implementing neural networks. It is written in Python and is used to make the implementation of neural networks easy. It also supports multiple backend neural network computation.
@@ -27,7 +28,9 @@ Keras allows you to switch between different back ends. The frameworks supported
 The research community for Keras is vast and highly developed. The documentation and help available are far more extensive than other deep learning frameworks. 
 
 # Sequential Model - Keras:
-The core idea of Sequential API is simply arranging the Keras layers in a sequential order and so, it is called Sequential API. As its name suggests it is one of the models that is used to investigate varied types of neural networks where the model gets in one input as feedback and expects an output as desired. The Keras API and library is incorporated with a sequential model to judge the entire simple model not the complex kind of model. It passes on the data and flows in sequential order from top to bottom approach till the data reaches at end of the model.
+The core idea of Sequential API is simply arranging the Keras layers in a sequential order and so, it is called Sequential API. As its name suggests it is one of the models that is used to investigate varied types of neural networks where the model gets in one input as feedback and expects an output as desired. 
+* The Keras API and library is incorporated with a sequential model to judge the entire simple model not the complex kind of model. It passes on the data and flows in sequential order from top to bottom approach till the data reaches at end of the model.
+
 # Convolutional Layer(operation):
 This process is main process for CNN. In this operation there is a feature detector or filter. This filter detects edges or specific shapes. Filter is placed top left of image and multiplied with value on same indices. After that all results are summed and this result is written to output matrix. Then filter slips to right to do this whole processes again and again. 
 # Padding:
